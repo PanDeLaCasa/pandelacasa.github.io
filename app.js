@@ -42,7 +42,7 @@ const ProductCard = props => {
   )
   const discount = Math.round(100 - (p.price / p.originalPrice * 100))
 
-  const goWhatsapp = () => window.open(`https://api.whatsapp.com/send?phone=+57${numero}&text=Hola%2C%20quiero%20comprar%20${p.name}`, '_blank')
+  const goWhatsapp = () => window.open(`https://api.whatsapp.com/send?phone=+57${numero}&text=Hola%2C%20quiero%20comprar%20	%2A${p.name}%2A%2E%0AMi%20domicilio%20es:%20%0A`, '_blank')
 
   return (
       <div className="product">
