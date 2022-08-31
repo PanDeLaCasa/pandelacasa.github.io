@@ -12,12 +12,11 @@ class App extends React.PureComponent {
     return (
       <div>
         <header>
-          Venta de Cositas de<br/>Milena & Julian
+          Panadería Pan de la Casa
         </header>
         <h3 className="subtitle">
-          Se aceptan pagos por Nequi, Colpatria, Efectivo o Paypal. Solo Bogota.
-          <h4>(Algunas fechas de entrega podrian variar por algunos días)</h4>
-          <p>Al hacer clic/tocar sobre las imagenes encontrás mas información de producto</p>
+          Se aceptan pagos por Nequi o con efectivo en la entrega.
+          Pida su domicilio o solicite pan para recoger después
         </h3>
         <ProductList products={this.props.products} />
       </div>
@@ -39,13 +38,14 @@ const ProductList = props => {
 
 const ProductCard = props => {
   const p = props.product
+  const numero = "3213270607"
   const formatPrice = p => p.toLocaleString(
     'es-CO',
     { style: 'currency', currency: 'COP' , maximumFractionDigits: '0'},
   )
   const discount = Math.round(100 - (p.price / p.originalPrice * 100))
 
-  const goWhatsapp = () => window.open(`https://api.whatsapp.com/send?phone=+573006815916&text=Hola%2C%20estoy interesado en%20${p.name}`, '_blank')
+  const goWhatsapp = () => window.open(`https://api.whatsapp.com/send?phone=+57${numero}&text=Hola%2C%20quiero%20comprar%20${p.name}`, '_blank')
 
   return (
       <div className="product">
