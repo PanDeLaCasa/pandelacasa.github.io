@@ -74,7 +74,7 @@ const ProductCard = props => {
           {
             p.state == "available" ?
             <span className="product-span">
-               <div className="available">DISPONIBLE</div>
+               {/* <div className="available">DISPONIBLE</div> */}
                <img className="product-img" src={p.imageUrl} loading="lazy"/>
             </span>
             : ''
