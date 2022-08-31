@@ -20,6 +20,10 @@ Now your website should be available in the address [http://0.0.0.0:8080](http:/
 
 ## Credits
 
+* Oscar Lopez
+
+## Special Thanks
+
 * Julian Alarcon
 * Milena Suarez
 

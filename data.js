@@ -6,7 +6,8 @@ const products = [
     price: 3000
     ,
     details: [
-      "Paquete de 6 panes"
+      "Paquete de 6 panes",
+      "Pan de sal"
     ],
     state: "available",
     purchaser: "id"
@@ -18,7 +19,8 @@ const products = [
     price: 3000
     ,
     details: [
-      "Paquete de 6 panes"
+      "Paquete de 6 panes",
+      "Pan de sal"
     ],
     state: "available",
     purchaser: "id"
@@ -30,7 +32,9 @@ const products = [
     price: 3000
     ,
     details: [
-      "Paquete de 6 panes"
+      "Paquete de 6 panes",
+      "Harina de trigo, de maíz y de avena",
+      "Pan de sal"
     ],
     state: "available",
     purchaser: "id"
@@ -41,6 +45,8 @@ const products = [
     imageUrl: "img/pan_ajo.jpg",
     price: 2500,
     details: [
+      "Pan individual",
+      "Pan de sal"
     ],
     state: "available",
     purchaser: "id"
@@ -51,7 +57,8 @@ const products = [
     imageUrl: "img/pan_arabe.jpg",
     price: 3000,
     details: [
-      "Paquete de 4 panes"
+      "Paquete de 4 panes",
+      "Pan de sal"
     ],
     state: "available",
     purchaser: "id"
@@ -62,7 +69,8 @@ const products = [
     imageUrl: "img/pan_campesino.jpg",
     price: 3000,
     details: [
-      "Paquete de 6 panes"
+      "Paquete de 6 panes",
+      "Pan de sal"
     ],
     state: "available",
     purchaser: "id"
@@ -73,7 +81,8 @@ const products = [
     imageUrl: "img/pan_coco.jpg",
     price: 3000,
     details: [
-      "Paquete de 6 panes"
+      "Paquete de 6 panes",
+      "Pan de dulce"
     ],
     state: "available",
     purchaser: "id"
@@ -84,7 +93,10 @@ const products = [
     imageUrl: "img/pan_focaccia.jpg",
     price: 3000,
     details: [
-      "Paquete de 4 panes"
+      "Paquete de 4 panes",
+      "Con especias",
+      "Ideal para sandwishes y pastas",
+      "Pan de sal"
     ],
     state: "available",
     purchaser: "id"
@@ -95,17 +107,36 @@ const products = [
     imageUrl: "img/pan_frances_queso.jpg",
     price: 3000,
     details: [
-      "Paquete de 4 panes"
+      "Paquete de 4 panes",
+      "Pan de sal"
     ],
     state: "available",
     purchaser: "id"
   },
   {
-    name: "Pan Integral 7 Granos Artesanal",
+    name: "Pan Integral 7 Granos Artesanal 1/2 Libra",
+    url: "img/pan_integral_7.jpg",
+    imageUrl: "img/pan_integral_7.jpg",
+    price: 4500,
+    details: [
+      "Pan individual",
+      "Hecho a base de harina de centeno",
+      "Sin grasas",
+      "Pan de sal"
+    ],
+    state: "available",
+    purchaser: "id"
+  },
+  {
+    name: "Pan Integral 7 Granos Artesanal 1 Libra",
     url: "img/pan_integral_7.jpg",
     imageUrl: "img/pan_integral_7.jpg",
     price: 8500,
     details: [
+      "Pan individual",
+      "Hecho a base de harina de centeno",
+      "Sin grasas",
+      "Pan de sal"
     ],
     state: "available",
     purchaser: "id"
@@ -116,7 +147,8 @@ const products = [
     imageUrl: "img/pan_maiz.jpg",
     price: 3000,
     details: [
-      "Paquete de 6 panes"
+      "Paquete de 6 panes",
+      "Pan de dulce"
     ],
     state: "available",
     purchaser: "id"
@@ -127,7 +159,8 @@ const products = [
     imageUrl: "img/pan_mestiza.jpg",
     price: 3000,
     details: [
-      "Paquete de 6 panes"
+      "Paquete de 6 panes",
+      "Pan de dulce"
     ],
     state: "available",
     purchaser: "id"
@@ -138,6 +171,9 @@ const products = [
     imageUrl: "img/pan_molde.jpg",
     price: 4000,
     details: [
+      "Pan individual",
+      "Con mantequilla y huevo",
+      "Pan de sal"
     ],
     state: "available",
     purchaser: "id"
@@ -148,7 +184,9 @@ const products = [
     imageUrl: "img/pan_negra.jpg",
     price: 3000,
     details: [
-      "Paquete de 6 panes"
+      "Paquete de 6 panes",
+      "Rellenas de bocadillo",
+      "Pan de dulce"
     ],
     state: "available",
     purchaser: "id",
@@ -159,6 +197,8 @@ const products = [
     imageUrl: "img/pan_queso.jpg",
     price: 3500,
     details: [
+      "Pan individual",
+      "Pan de sal"
     ],
     state: "available",
     purchaser: "id"
