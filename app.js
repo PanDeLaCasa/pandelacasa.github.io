@@ -1,10 +1,5 @@
 'use strict'
 
-// var products = []
-// fetch('./data.json')
-// .then(response => response.json())
-// .then(products => console.log(products))
-
 class App extends React.PureComponent {
   render () {
     //const sortedProducts = this.props.products.sort((a, b) => a.price - b.price)
@@ -16,7 +11,9 @@ class App extends React.PureComponent {
         </header>
         <h3 className="subtitle">
           Se aceptan pagos por Nequi o con efectivo en la entrega.
-          Pida su domicilio o solicite pan para recoger después
+        </h3>
+        <h3 className="subtitle">
+          Pida su domicilio o solicite pan para recoger después.
         </h3>
         <ProductList products={this.props.products} />
       </div>
