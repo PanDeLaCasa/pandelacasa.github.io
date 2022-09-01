@@ -13,7 +13,7 @@ class App extends React.PureComponent {
           Se aceptan pagos por Nequi o con efectivo en la entrega.
         </h3>
         <h3 className="subtitle">
-          Pida su domicilio o solicite pan para recoger después.
+          Puede pedir su domicilio o solicitar pan para recoger después.
         </h3>
         <ProductList products={this.props.products} />
       </div>
