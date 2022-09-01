@@ -9,12 +9,15 @@ class App extends React.PureComponent {
         <header>
           Panadería Pan de la Casa
         </header>
+        <img className="banner" src={"img/banner.jpg"}/>
         <h3 className="subtitle">
-          Se aceptan pagos por Nequi o con efectivo en la entrega.
+          Se aceptan pagos por Nequi o con efectivo en la entrega
         </h3>
+        <br></br>
         <h3 className="subtitle">
           Puede pedir su domicilio o solicitar pan para recoger después.
         </h3>
+        <br></br>
         <ProductList products={this.props.products} />
       </div>
     )

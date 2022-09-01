@@ -8,10 +8,15 @@ a:link {
   cursor: pointer;
 }
 
+/*
+  Colores de la panadería por ahora
+  Fondo: #e1bb59 | Fuente: #993b00
+*/
+
 header {
   line-height: 30px;
   background-color: #e1bb59;
-  color: rgb(153, 59, 1);
+  color: #993b00;
   font-size: 20px;
   margin-bottom: 10px;
   text-align: center;
@@ -43,6 +48,19 @@ header {
   margin-bottom: 40px;
   overflow: hidden;
   align-self: flex-start;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),
+              0 2px 4px 0 rgba(0,0,0,0.08);
+}
+
+.banner {
+  width: 350px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  align-self: center;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),
               0 2px 4px 0 rgba(0,0,0,0.08);
 }
@@ -109,12 +127,17 @@ header {
   right: 10px;
 }
 
+/*
+  Colores de la panadería por ahora
+  Fondo: #e1bb59 | Fuente: #993b00
+*/
+
 .price {
   bottom: 0;
   height: 60px;
   line-height: 60px;
-  color: #FFF;
-  background-color: #FFCC00;
+  color: #993b00;
+  background-color: #e1bb59;
   text-align: left;
   padding-left: 18px;
   font-size: 24px;
