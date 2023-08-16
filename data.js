@@ -69,7 +69,7 @@ const products = [
     name: "Pan de Francés con Ajo",
     url: "img/pan_ajo.jpg",
     imageUrl: "img/pan_ajo.jpg",
-    price: 2500,
+    price: 3000,
     details: [
       "Pan francés hecho en Cota",
       "Pan individual",
